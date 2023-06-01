@@ -3,9 +3,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgb(159, 200, 255);
 }
+#sun {
+  color: rgb(255, 187, 0);
+}
+#moon {
+  display: none;
+  color: rgb(196, 196, 196);
+}
+
 .container {
   border: black 2px solid;
+  background-color: white;
   width: 25px;
   height: 55px;
   display: flex;

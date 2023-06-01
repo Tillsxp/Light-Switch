@@ -7,6 +7,10 @@ function toggleButton() {
   off.classList.toggle('on');
   off.classList.toggle('off-bottom');
 }
+on.addEventListener('click', function () {
+  toggleButton();
+});
 
-on.addEventListener('click', toggleButton);
-off.addEventListener('click', toggleButton);
+off.addEventListener('click', function () {
+  toggleButton();
+});
